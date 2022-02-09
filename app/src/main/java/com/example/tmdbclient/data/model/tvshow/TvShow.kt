@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
 @Entity(tableName = "popular_tvshow")
-data class TVShow(
+data class TvShow(
     @SerializedName("first_air_date")
     val firstAirDate: String?,
     @PrimaryKey
