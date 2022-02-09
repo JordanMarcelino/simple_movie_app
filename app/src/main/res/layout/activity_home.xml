@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeActivity">
+
+        <Button
+            android:id="@+id/movie_button"
+            android:layout_width="123dp"
+            android:layout_height="93dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="@color/black"
+            android:text="Movie"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="16dp"
+            app:layout_constraintBottom_toBottomOf="@id/movie_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/movie_image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/movie_image"
+            android:layout_width="216dp"
+            android:layout_height="159dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@id/artist_image"
+            app:layout_constraintEnd_toStartOf="@+id/movie_button"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/movie" />
+
+        <Button
+            android:id="@+id/artist_button"
+            android:layout_width="136dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="232dp"
+            android:layout_marginEnd="28dp"
+            android:backgroundTint="@color/black"
+            android:text="Artist"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="16dp"
+            app:layout_constraintBottom_toBottomOf="@id/artist_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/artist_image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.602" />
+
+        <ImageView
+            android:id="@+id/artist_image"
+            android:layout_width="216dp"
+            android:layout_height="159dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="204dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@id/tvshow_image"
+            app:layout_constraintEnd_toStartOf="@+id/movie_button"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259"
+            app:srcCompat="@drawable/artist" />
+
+        <Button
+            android:id="@+id/tvshow_button"
+            android:layout_width="133dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="516dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="@color/black"
+            android:text="Tv Show"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvshow_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/tvshow_image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.76" />
+
+        <ImageView
+            android:id="@+id/tvshow_image"
+            android:layout_width="216dp"
+            android:layout_height="159dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="408dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/movie_button"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.292"
+            app:srcCompat="@drawable/tvshow" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

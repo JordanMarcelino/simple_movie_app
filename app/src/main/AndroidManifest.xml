@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TMDClient">
         <activity
-            android:name="com.example.tmdbclient.MainActivity"
+            android:name="com.example.tmdbclient.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
