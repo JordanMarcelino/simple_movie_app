@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Android_Jetpack_Bootcamp/13_MVVM_Project_1/TMDBClient/app/src/main/res/layout/activity_artist.xml" value="0.2171875" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Android_Jetpack_Bootcamp/13_MVVM_Project_1/TMDBClient/app/src/main/res/layout/activity_home.xml" value="0.2171875" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Android_Jetpack_Bootcamp/13_MVVM_Project_1/TMDBClient/app/src/main/res/layout/activity_main.xml" value="0.203125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Android_Jetpack_Bootcamp/13_MVVM_Project_1/TMDBClient/app/src/main/res/layout/activity_movie.xml" value="0.2171875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Android_Jetpack_Bootcamp/13_MVVM_Project_1/TMDBClient/app/src/main/res/layout/activity_tv_show.xml" value="0.2171875" />
       </map>
     </option>
   </component>

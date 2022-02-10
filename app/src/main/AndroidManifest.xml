@@ -10,7 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TMDClient">
         <activity
-            android:name="com.example.tmdbclient.HomeActivity"
+            android:name=".view.tvshow.TvShowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.artist.ArtistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.movie.MovieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
