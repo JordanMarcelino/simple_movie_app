@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
 @Module
-class NetModule(private val basesUrl : String){
+class NetModule(private val baseUrl : String){
 
     private val interceptor = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
@@ -29,7 +29,7 @@ class NetModule(private val basesUrl : String){
             GsonBuilder()
                 .create()))
         .client(client)
-        .baseUrl(basesUrl)
+        .baseUrl(baseUrl)
         .build()
 
     @Singleton
